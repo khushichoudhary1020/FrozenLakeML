@@ -1,4 +1,4 @@
-# Machine Learning
+
 Machine Learning, as we know there are four different types of machine learning 
 Supervised ML
 Unsupervised ML
@@ -9,8 +9,7 @@ It is employed by various software and machines to find the best possible behavi
 Reinforcement learning differs from supervised learning in a way that in supervised learning the training data has the answer key with it so the model is trained with the correct answer itself whereas in reinforcement learning, there is no answer but the reinforcement agent decides what to do to perform the given task. 
 In the absence of a training dataset, it is bound to learn from its experience. ###Khushi
 # FrozenLakeML
-WHAT IS Q-LEARNING
-
+**WHAT IS Q-LEARNING**
 Q-learning is a machine learning approach that enables a model to iteratively learn and improve over time by taking the correct action. Q-learning is a type of reinforcement learning. With reinforcement learning, a machine learning model is trained to mimic the way animals or children learn. Good actions are rewarded or reinforced, while bad actions are discouraged and penalized.
 
 With the state-action-reward-state-action form of reinforcement learning, the training regimen follows a model to take the right actions. Q-learning provides a model-free approach to reinforcement learning. There is no model of the environment to guide the reinforcement learning process. The agent -- which is the AI component that acts in the environment -- iteratively learns and makes predictions about the environment on its own.
@@ -19,15 +18,13 @@ Q-learning also takes an off-policy approach to reinforcement learning. A Q-lear
 
 In this, we need to train the model or agent using Q-learning technique, in which we provide environment, and a set of rules on the basis of which agent learns. In this game, frozen lake an agent is needed to be trained with the help of reinforcement learning using Q-learning.
 
-ENVIRONMENT DETAILS:-
-
+**ENVIRONMENT DETAILS:-**
 The game initializes with the agent at its start state[0,0] of the frozen lake grid and it needs to reach the goal state. The environment grid holds 16 states(4*4=16). There are holes in the grid of lake which are distributed at diff places and if the agent falls in this holes, it will recieve a punishment i.e, no rewards or deduction of reward points. The player will play until one of these condition comes 1)- it wins , 2)- falls in the hole or 3)- the episode steps are over.
 
 is_slippery is an argument which means that an agent may move perpendicular to the intended direction sometimes ( is_slippery), if you place True in the argument then slippering is a possible condition but if place False agent can't slip. You can import the environmemt from the following link:-**https://gymnasium.farama.org/environments/toy_text/frozen_lake/ **
 
-POSSIBLE ACTIONS IN THE GAME:-
-
-When playing the game you wil notice that the agent is taking 4 possible actions to reach the goal which are listed below:
+**ACTIONS IN THIS GAME:-**
+_When playing the game you wil notice that the agent is taking 4 possible actions to reach the goal which are listed below:_
 
 0: Move left
 
@@ -39,9 +36,8 @@ When playing the game you wil notice that the agent is taking 4 possible actions
 
 An agent will take these action to accomplish the task or win the game.
 
-OBSERVATION SPACE:-
-
-The observation is a value representing the player’s current position
+**OBSERVATION SPACE:-**
+_The observation is a value representing the player’s current position_
 
 The formula used for calculating the observation spaces is current_row * nrows + current_col (where both the row and col start at 0).
 
@@ -49,9 +45,10 @@ START STATE:- The initial position of an agent from where it starts the game.
 
 GOAL STATE:- The state in which the goal is achieved and the game ends.
 
-REWARDS
+**REWARDS**
 
-This is the vital factor of the game 'rewards'. Any agent learns and hits a trial to get the reward. In this game the reward schedule is:-
+_This is the vital factor of the game 'rewards'. Any agent learns and hits a trial to get the reward. In this game the reward schedule is:-_
+
 #####Khushi
 
 Reach goal: +1
@@ -60,10 +57,8 @@ Reach hole: 0
 
 Reach frozen: 0
 
-EPISODE TERMINATION:-
-
-The episode will be ended under these circumstances:-
-
+**EPISODE TERMINATION:-**
+_The episode will be ended under these circumstances:-_
 a)- Goal is achieved.
 
 b)- Agent falls into the hole.
