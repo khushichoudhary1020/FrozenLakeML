@@ -1,3 +1,4 @@
+#Machine Learning
 Machine Learning, as we know there are four different types of machine learning 
 Supervised ML
 Unsupervised ML
@@ -6,7 +7,7 @@ Reinforcement Learning
 Here I've worked on Reinforcement learning which is Science of decision making. It is about taking suitable action to maximize reward in a particular situation. 
 It is employed by various software and machines to find the best possible behavior or path it should take in a specific situation. 
 Reinforcement learning differs from supervised learning in a way that in supervised learning the training data has the answer key with it so the model is trained with the correct answer itself whereas in reinforcement learning, there is no answer but the reinforcement agent decides what to do to perform the given task. 
-In the absence of a training dataset, it is bound to learn from its experience. 
+In the absence of a training dataset, it is bound to learn from its experience. ###Khushi
 # FrozenLakeML
 WHAT IS Q-LEARNING
 
@@ -51,7 +52,7 @@ GOAL STATE:- The state in which the goal is achieved and the game ends.
 REWARDS
 
 This is the vital factor of the game 'rewards'. Any agent learns and hits a trial to get the reward. In this game the reward schedule is:-
-
+#####Khushi
 Reach goal: +1
 
 Reach hole: 0
