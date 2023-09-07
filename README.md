@@ -2,10 +2,15 @@ There's an agent/character which has a target to achieve his goal which is the l
 if the agent/character wants to achieve its goal he must choose only frozen paths/grids, if it chooses another grid/path rather than frozen it might loose the game.
 Basically agent will find the best way too achieve its goal.
 Machine Learning, as we know there are four different types of machine learning 
+
 Supervised ML
+
 Unsupervised ML
+
 Semisupervised ML
+
 Reinforcement Learning
+
 Here I've worked on Reinforcement learning which is Science of decision making. It is about taking suitable action to maximize reward in a particular situation. 
 It is employed by various software and machines to find the best possible behavior (####Khushi)or path it should take in a specific situation. 
 Reinforcement learning differs from supervised learning in a way that in supervised learning the training data has the answer key with it so the model is trained with the correct answer itself whereas in reinforcement learning, there is no answer but the reinforcement agent decides what to do to perform the given task. 
