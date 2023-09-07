@@ -1,4 +1,4 @@
-#Machine Learning
+# Machine Learning
 Machine Learning, as we know there are four different types of machine learning 
 Supervised ML
 Unsupervised ML
@@ -53,6 +53,7 @@ REWARDS
 
 This is the vital factor of the game 'rewards'. Any agent learns and hits a trial to get the reward. In this game the reward schedule is:-
 #####Khushi
+
 Reach goal: +1
 
 Reach hole: 0
