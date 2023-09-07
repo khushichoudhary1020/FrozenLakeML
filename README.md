@@ -9,7 +9,9 @@ It is employed by various software and machines to find the best possible behavi
 Reinforcement learning differs from supervised learning in a way that in supervised learning the training data has the answer key with it so the model is trained with the correct answer itself whereas in reinforcement learning, there is no answer but the reinforcement agent decides what to do to perform the given task. 
 In the absence of a training dataset, it is bound to learn from its experience. ###Khushi
 # FrozenLakeML
+
 **WHAT IS Q-LEARNING**
+
 Q-learning is a machine learning approach that enables a model to iteratively learn and improve over time by taking the correct action. Q-learning is a type of reinforcement learning. With reinforcement learning, a machine learning model is trained to mimic the way animals or children learn. Good actions are rewarded or reinforced, while bad actions are discouraged and penalized.
 
 With the state-action-reward-state-action form of reinforcement learning, the training regimen follows a model to take the right actions. Q-learning provides a model-free approach to reinforcement learning. There is no model of the environment to guide the reinforcement learning process. The agent -- which is the AI component that acts in the environment -- iteratively learns and makes predictions about the environment on its own.
@@ -26,13 +28,13 @@ is_slippery is an argument which means that an agent may move perpendicular to t
 **ACTIONS IN THIS GAME:-**
 _When playing the game you wil notice that the agent is taking 4 possible actions to reach the goal which are listed below:_
 
-0: Move left
+**0: Move left
 
 1: Move down
 
 2: Move right
 
-3: Move up
+3: Move up**
 
 An agent will take these action to accomplish the task or win the game.
 
@@ -41,9 +43,9 @@ _The observation is a value representing the player’s current position_
 
 The formula used for calculating the observation spaces is current_row * nrows + current_col (where both the row and col start at 0).
 
-START STATE:- The initial position of an agent from where it starts the game.
+**START STATE**:- The initial position of an agent from where it starts the game.
 
-GOAL STATE:- The state in which the goal is achieved and the game ends.
+**GOAL STATE**:- The state in which the goal is achieved and the game ends.
 
 **REWARDS**
 
