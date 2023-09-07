@@ -28,13 +28,13 @@ is_slippery is an argument which means that an agent may move perpendicular to t
 **ACTIONS IN THIS GAME:-**
 _When playing the game you wil notice that the agent is taking 4 possible actions to reach the goal which are listed below:_
 
-**0: Move left
+1: Move left
 
-1: Move down
+2: Move down
 
-2: Move right
+3: Move right
 
-3: Move up**
+4: Move up*
 
 An agent will take these action to accomplish the task or win the game.
 
