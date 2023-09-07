@@ -25,6 +25,7 @@ Q-learning is a machine learning approach that enables a model to iteratively le
 In this, we need to train the model or agent using Q-learning technique, in which we provide environment, and a set of rules on the basis of which agent learns. In this game, frozen lake an agent is needed to be trained with the help of reinforcement learning using Q-learning.
 
 **ENVIRONMENT DETAILS:-**
+
 The game initializes with the agent at its start state[0,0] of the frozen lake grid and it needs to reach the goal state. The environment grid holds 16 states(4*4=16). There are holes in the grid(4x4) of lake which are distributed at diff places and if the agent falls in any hole, it will be a punished i.e, no rewards or deduction of reward points (to be specific). The player will play until one of these condition stikes
 
 1) Win the environment
@@ -38,6 +39,7 @@ is_slippery is an argument which means that an agent may move perpendicular to t
 **ACTIONS IN THIS GAME:-**
 
 _The action shape is (1,) in the range {0, 3} indicating which direction to move the player._
+
 When playing the game you wil notice that the agent is taking 4 possible actions to reach the goal which are listed below:
 
 0: Move left
@@ -51,6 +53,7 @@ When playing the game you wil notice that the agent is taking 4 possible actions
 An agent will take these action to achieve success in the task or to win the game.
 
 **OBSERVATION SPACE:-**
+
 _The observation is a value representing the player’s current position_
 
 The formula used for calculating the observation spaces is current_row * nrows + current_col (where both the row and col start at 0).
@@ -72,7 +75,9 @@ Reach hole: 0
 Reach frozen: 0
 
 **EPISODE TERMINATION:-**
+
 _The episode will be ended when:-_
+
 ~ Goal is achieved.
 
 ~ Agent falls into the hole.
