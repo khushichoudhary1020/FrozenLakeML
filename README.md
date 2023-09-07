@@ -8,6 +8,8 @@ Here I've worked on Reinforcement learning which is Science of decision making. 
 It is employed by various software and machines to find the best possible behavior or path it should take in a specific situation. 
 Reinforcement learning differs from supervised learning in a way that in supervised learning the training data has the answer key with it so the model is trained with the correct answer itself whereas in reinforcement learning, there is no answer but the reinforcement agent decides what to do to perform the given task. 
 In the absence of a training dataset, it is bound to learn from its experience. ###Khushi
+
+
 # FrozenLakeML
 
 **WHAT IS Q-LEARNING**
@@ -21,22 +23,30 @@ Q-learning also takes an off-policy approach to reinforcement learning. A Q-lear
 In this, we need to train the model or agent using Q-learning technique, in which we provide environment, and a set of rules on the basis of which agent learns. In this game, frozen lake an agent is needed to be trained with the help of reinforcement learning using Q-learning.
 
 **ENVIRONMENT DETAILS:-**
-The game initializes with the agent at its start state[0,0] of the frozen lake grid and it needs to reach the goal state. The environment grid holds 16 states(4*4=16). There are holes in the grid of lake which are distributed at diff places and if the agent falls in this holes, it will recieve a punishment i.e, no rewards or deduction of reward points. The player will play until one of these condition comes 1)- it wins , 2)- falls in the hole or 3)- the episode steps are over.
+The game initializes with the agent at its start state[0,0] of the frozen lake grid and it needs to reach the goal state. The environment grid holds 16 states(4*4=16). There are holes in the grid(4x4) of lake which are distributed at diff places and if the agent falls in any hole, it will be a punished i.e, no rewards or deduction of reward points (to be specific). The player will play until one of these condition stikes
+
+1) Win the environment
+  
+2) Falls in the hole/Lake
+
+3) The episode steps finished.
 
 is_slippery is an argument which means that an agent may move perpendicular to the intended direction sometimes ( is_slippery), if you place True in the argument then slippering is a possible condition but if place False agent can't slip. You can import the environmemt from the following link:-**https://gymnasium.farama.org/environments/toy_text/frozen_lake/ **
 
 **ACTIONS IN THIS GAME:-**
-_When playing the game you wil notice that the agent is taking 4 possible actions to reach the goal which are listed below:_
 
-1: Move left
+_The action shape is (1,) in the range {0, 3} indicating which direction to move the player._
+When playing the game you wil notice that the agent is taking 4 possible actions to reach the goal which are listed below:
 
-2: Move down
+0: Move left
 
-3: Move right
+1: Move down
 
-4: Move up*
+2: Move right
 
-An agent will take these action to accomplish the task or win the game.
+3: Move up
+
+An agent will take these action to achieve success in the task or to win the game.
 
 **OBSERVATION SPACE:-**
 _The observation is a value representing the player’s current position_
@@ -60,11 +70,11 @@ Reach hole: 0
 Reach frozen: 0
 
 **EPISODE TERMINATION:-**
-_The episode will be ended under these circumstances:-_
-a)- Goal is achieved.
+_The episode will be ended when:-_
+~ Goal is achieved.
 
-b)- Agent falls into the hole.
+~ Agent falls into the hole.
 
-c)-Episode steps have ended.
+~ Episode steps ended.
 
 Overall,this is the whole working of this game.
