@@ -84,4 +84,4 @@ _The episode will be ended when:-_
 
 ~ Episode steps ended.
 
-Overall,this is the whole working of this game.
+This is how this game has been built.
