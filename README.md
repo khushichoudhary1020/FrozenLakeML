@@ -1,7 +1,8 @@
 There's an agent/character which has a target to achieve his goal which is the last grid(4,4). The grids include some frozen ice lakes and some of them are not frozen, 
 if the agent/character wants to achieve its goal he must choose only frozen paths/grids, if it chooses another grid/path rather than frozen it might loose the game.
 Basically agent will find the best way too achieve its goal.
-Machine Learning, as we know there are four different types of machine learning 
+Machine Learning, as we know there are four different types of machine learning
+
 
 Supervised ML
 
